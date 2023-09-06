@@ -1,0 +1,146 @@
+.main-heading {
+    display : flex;
+    align-items: center;
+    position: relative;
+    height : 4.5rem;
+    width : 100%;
+    border-bottom : .5px solid black;
+    transition: 3s;
+    justify-content: space-between;
+    background-color: #eff1f3;
+
+}
+.main-heading img {
+    margin-left : 1rem;
+    width: 5rem;
+}
+
+.main-heading img:hover {
+    border : 1px solid black;
+}
+
+.main-heading .search-box {
+    display: flex;
+    justify-content: center;
+    border : .5px solid black;
+    border-radius: 5px;
+}
+.main-heading input[type="text"]
+ {
+    width : 30rem;
+    height : 3rem;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+}
+.main-heading button {
+    width : 3rem;
+    height : 3rem;
+    background-color: #ffe667;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.main-heading button:hover {
+    background-color: #ffdd32;
+}
+
+.main-heading button .search-button {
+    height: 1.5rem;
+    width : 1.5rem;
+}
+
+.main-heading ul {
+    display : flex;
+    list-style-type: none;
+    align-items: center;
+    height : 4.7rem;
+    max-width : 22rem;
+    margin-right: 1rem;
+}
+
+.main-heading ul li {
+    max-width : 10rem;
+}
+
+.main-heading ul .download {
+    display : flex;
+    align-items: center;
+}
+
+.main-heading ul .download:hover {
+    color : purple;
+}
+
+.main-heading ul .download:hover p {
+    transform: scale(1.1);
+}
+.main-heading ul .download .mobile {
+    height : 2rem;
+    width : 2rem;
+
+}
+.main-heading ul .download p{
+    font-size: 16px;
+
+}
+
+.main-heading li:nth-child(2)
+ {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    height: 3rem;
+    color : #780000;
+}
+
+.main-heading li .account {margin-top: 0;}
+
+.main-heading li:nth-child(3) {
+    margin-top: 2px;
+    width : 5rem;
+}
+
+.username{
+    display : flex;
+    justify-content: center;
+    font-size: 10px;
+    min-width : 6rem;
+}
+
+.main-heading li .login-account,
+.main-heading li .cart-icon{
+    height : 2rem;
+    width : 2rem;
+    color : black;
+}
+
+.main-heading li .login-account:hover,
+.main-heading li .cart-icon:hover {
+    color : purple;
+}
+
+.main-heading li .cart-icon {
+    right : 5rem;
+}
+
+@media only screen and (max-width : 1020px) {
+    .main-heading ul .download {
+        display : none
+    }
+    .main-heading ul {
+        margin-right :  .5rem;
+    }
+}
+@media only screen and (max-width : 800px) {
+    .main-heading{min-width : 500px}
+    .main-heading input[type="text"] {
+        min-width: 14rem;
+    }
+
+    .main-heading img{min-width: 4rem;}
+
+}

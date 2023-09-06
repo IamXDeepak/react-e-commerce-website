@@ -1,0 +1,165 @@
+.cart {
+    border: 1px solid black;
+    min-height: 90vh;
+    background-color: rgb(235, 235, 235);
+    padding: 1rem;
+}
+
+.cart-box {
+    margin-top: 1rem;
+    margin-left: .5rem;
+    background-color: white;
+    padding: 1rem;
+    width: 65rem;
+}
+
+.empty-cart {
+    margin-bottom: 1.5rem;
+}
+
+.cart-heading {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.delete-all {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(0, 106, 199);
+}
+
+.price-column {
+    text-align: right;
+    color: rgb(83, 83, 83);
+    margin-bottom: 5px;
+}
+
+hr {
+    border: .4px solid rgb(175, 175, 175);
+    margin-bottom: 5px;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 3fr 7fr 2fr;
+}
+
+.column1,.column2,.column3 {
+    border-bottom: .8px solid rgb(175, 175, 175);
+}
+
+.column1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 13rem;
+}
+
+.column1 image {
+    border: 1px solid black;
+}
+
+.column2 {
+    padding: 1rem;
+}
+
+.column2 .cart-main-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cart-stock {
+    margin-top: 15px;
+    color: green;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.free-delivery {
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.item-size,
+.item-color {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.item-size span,
+.item-color span {
+    font-weight: 400;
+    font-size: 14px;
+}
+.option-box {
+    margin-top: 15px;
+    width: 12rem;
+}
+
+.quantity {
+    height: 1.7rem;
+    border-radius: 8px;
+}
+
+.quantity:hover,
+.quantity:focus,
+.extra-quantity:focus {
+    box-shadow: rgb(11, 182, 255) 0px 2px 5px 0px, rgb(11, 182, 255) 0px 2px 10px 0px;
+}
+
+.extra-quantity {
+    width: 4rem;
+    height: 1.5rem;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.extra-quantity::-webkit-inner-spin-button,
+.extra-quantity::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.update-button {
+    margin-left: 5px;
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    border: .1px solid black;
+    background-color: #ffb627;
+}
+
+.delete-product {
+    color: rgb(0, 103, 129);
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: .1px solid rgb(175, 175, 175);
+}
+
+.delete-product:hover {
+    text-decoration: underline;
+    color: rgb(255, 98, 0);
+}
+
+.price-view {
+    text-align: right;
+    margin: .5rem;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.price-view span {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.total-price {
+    text-align: right;
+    font-weight: 450;
+    font-size: 21px;
+}

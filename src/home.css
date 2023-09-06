@@ -1,0 +1,73 @@
+.home {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    background-color: rgba(154, 181, 184,.7);
+}
+
+.home-products {
+    display : grid;
+    padding: 0 3rem;
+    padding-top: 3rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+
+
+.home-products .outside-container {
+    position: relative;
+    padding : 20px 15px;
+    height : 24rem;
+    background-color: white;
+}
+
+.home-products .outside-container h4 {
+    font-size: 20px;
+}
+.home-products .outside-container .inner-grid {
+    display : grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap : 10px;
+    grid-row-gap: 30px;
+    margin-top: 20px;
+}
+
+.home-products .outside-container .inside-container {
+    height : 7rem;
+}
+
+.home-products .outside-container .inside-container img {
+    margin: 0 auto;
+    height : 80%;
+    width : 100%;
+}
+
+.home-products .outside-container .inside-container p {
+    font-size: 13px;
+}
+
+
+.home-products .outside-container .login button {
+    position: absolute;
+    width : 80%;
+    height : 30px;
+    bottom: 1.5rem;
+    left : 1.8rem;
+    background-color: #ffdd32;
+    border :none;
+    border-radius : 10px;
+}
+
+.home-products .outside-container .login button:hover {
+    background-color: #edcd2d;
+}
+
+.home-products .div-link {
+    position: absolute;
+    bottom: 15px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: rgb(0, 136, 255);
+}

@@ -1,0 +1,48 @@
+.account {
+    width : 80%;
+    margin : 2rem auto;
+    height : 25rem;
+}
+
+.account h3 {font-size: 25px;}
+
+.main-box {
+    margin-top : 2rem;
+}
+
+.main-box ul {
+    display : grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap : 25px;
+    list-style-type: none;
+}
+
+.main-box ul .box {
+    display : grid;
+    grid-template-columns: 1fr 3fr;
+    border : .1px solid black;
+    border-radius: 7px;
+    height: 7rem;
+}
+
+.main-box ul .box:hover {
+    background-color: #f8f9fa;
+}
+.main-box ul .box .image-box {
+    margin : 10px 0 0 10px;
+}
+.main-box ul .box .image {
+    height : 3rem;
+    width : 3rem;
+}
+
+.main-box ul .box .content {
+    margin-top: 25px;
+}
+
+.main-box ul .box .content h4 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.main-box ul .box .content p {font-size: 14px;}

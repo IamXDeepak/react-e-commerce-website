@@ -1,0 +1,412 @@
+{
+  "loginCredentials": [
+    {
+      "id": 1,
+      "name": "Deepak",
+      "mailId": "deepaks8404@gmail.com",
+      "phoneNumber": "9788938920",
+      "password": "Deepak@123",
+      "address": []
+    },
+    {
+      "id": 2,
+      "name": "Rithika Lincy",
+      "mailId": "rithikalincy24534@gmail.com",
+      "phoneNumber": "9600819820",
+      "password": "rithika@16",
+      "address": []
+    },
+    {
+      "id": 3,
+      "name": "Karikalan",
+      "mailId": "",
+      "phoneNumber": "6383565815",
+      "password": "123456",
+      "address": [
+        {
+          "id": 0,
+          "country": "India",
+          "fname": "karikalan",
+          "lname": "k",
+          "mobileNumber": "9788938920",
+          "pincode": "626117",
+          "flatDoorNo": "323",
+          "area": "eddef",
+          "landMark": "fdfa",
+          "city": "sx",
+          "state": "Tamil Nadu",
+          "defaultAddress": "default",
+          "addressType": "",
+          "doNotDistrub": "",
+          "deliveryDays": [],
+          "additionalInfo": ""
+        }
+      ],
+      "cart": []
+    }
+  ],
+  "companyImages": [
+    {
+      "id": 1,
+      "name": "company logo",
+      "imagePath": "../../images/companyImages/pixelmarket.png"
+    },
+    {
+      "id": 2,
+      "name": "country",
+      "countries": [
+        "Afghanistan",
+        "Australia",
+        "Brazil",
+        "Canada",
+        "China",
+        "Egypt",
+        "France",
+        "Germany",
+        "India",
+        "Indonesia",
+        "Italy",
+        "Japan",
+        "Mexico",
+        "Netherlands",
+        "Russia",
+        "South Africa",
+        "Spain",
+        "Switzerland",
+        "United Kingdom",
+        "United States"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "state",
+      "states": [
+        "Andaman and Nicobar Islands",
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chandigarh",
+        "Chhattisgarh",
+        "Dadra and Nagar Haveli and Daman and Diu",
+        "Delhi",
+        "Goa",
+        "Gujarat",
+        "Haryana",
+        "Himachal Pradesh",
+        "Jharkhand",
+        "Karnataka",
+        "Kerala",
+        "Ladakh",
+        "Lakshadweep",
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram",
+        "Nagaland",
+        "Odisha",
+        "Puducherry",
+        "Punjab",
+        "Rajasthan",
+        "Sikkim",
+        "Tamil Nadu",
+        "Telangana",
+        "Tripura",
+        "Uttar Pradesh",
+        "Uttarakhand",
+        "West Bengal"
+      ]
+    }
+  ],
+  "HomeProductImages": {
+    "styles_for_men": [
+      {
+        "id": 0,
+        "category": "styles for men",
+        "link": "/",
+        "linkName": "Show more"
+      },
+      {
+        "id": 1,
+        "category": "t-shirts",
+        "name": "t-shirt",
+        "imagePath": "../../images/home/styles_for_men/t-shirt.webp",
+        "link": "/tshirt"
+      },
+      {
+        "id": 2,
+        "name": "shoe",
+        "imagePath": "../../images/home/styles_for_men/shoe.avif",
+        "link": "/"
+      },
+      {
+        "id": 3,
+        "name": "watch",
+        "imagePath": "../../images/home/styles_for_men/watch.png",
+        "link": "/"
+      },
+      {
+        "id": 4,
+        "name": "bag & luggage",
+        "imagePath": "../../images/home/styles_for_men/bag&luggage.png",
+        "link": "/"
+      }
+    ],
+    "revamp_your_home_in_style": [
+      {
+        "id": 0,
+        "category": "revamp your home in style",
+        "Link": "/",
+        "linkName": "link"
+      },
+      {
+        "id": 1,
+        "name": "bedsheet & curtain",
+        "imagePath": "../../images/home/revamp_your_home_in_style/bedsheets&curtains.webp",
+        "link": "/"
+      },
+      {
+        "id": 2,
+        "name": "home decoration",
+        "imagePath": "../../images/home/revamp_your_home_in_style/decorations.webp",
+        "link": "/"
+      },
+      {
+        "id": 3,
+        "name": "home storage",
+        "imagePath": "../../images/home/revamp_your_home_in_style/shoe-racks.jpeg",
+        "link": "/"
+      },
+      {
+        "id": 4,
+        "name": "lighting",
+        "imagePath": "../../images/home/revamp_your_home_in_style/lighting.webp",
+        "link": "/"
+      }
+    ],
+    "new_season": [
+      {
+        "id": 0,
+        "category": "New looks for new season",
+        "Link": "/",
+        "linkName": "link"
+      },
+      {
+        "id": 1,
+        "name": "glamour grace",
+        "imagePath": "../../images/home/season/glamourgracefaith.jpg",
+        "link": "/"
+      },
+      {
+        "id": 2,
+        "name": "season",
+        "imagePath": "../../images/home/season/season-dress.png",
+        "link": "/"
+      },
+      {
+        "id": 3,
+        "name": "sunflower summer",
+        "imagePath": "../../images/home/season/sunflower-summer.jpeg",
+        "link": "/"
+      },
+      {
+        "id": 4,
+        "name": "lehenga",
+        "imagePath": "../../images/home/season/yellow-lehenga.jpeg",
+        "link": "/"
+      }
+    ],
+    "republic_day_offer": [
+      {
+        "id": 0,
+        "category": "Republic day offer | Brands in foucs",
+        "Link": "/",
+        "linkName": "link"
+      },
+      {
+        "id": 1,
+        "name": "home appliances | LG",
+        "imagePath": "../../images/home/republic_day_offers/home_appliances.avif",
+        "link": "/"
+      },
+      {
+        "id": 2,
+        "name": "Aqua Active water purifier",
+        "imagePath": "../../images/home/republic_day_offers/water-purifier.jpeg",
+        "link": "/"
+      },
+      {
+        "id": 3,
+        "name": "iphones",
+        "imagePath": "../../images/home/republic_day_offers/iphone.jpeg",
+        "link": "/"
+      },
+      {
+        "id": 4,
+        "name": "home pods | apple",
+        "imagePath": "../../images/home/republic_day_offers/home_pods.jpeg",
+        "link": "/"
+      }
+    ],
+    "electronics": [
+      {
+        "id": 0,
+        "category": "Electronic devices for Home Office",
+        "Link": "/",
+        "linkName": "link"
+      },
+      {
+        "id": 1,
+        "name": "Watches",
+        "imagePath": "../../images/home/electronics/smart_watch.jpeg",
+        "link": "/"
+      },
+      {
+        "id": 2,
+        "name": "Ipad & Mobiles",
+        "imagePath": "../../images/home/electronics/ipad&mobile.jpeg",
+        "link": "/"
+      },
+      {
+        "id": 3,
+        "name": "Laptop",
+        "imagePath": "../../images/home/electronics/laptop.jpeg",
+        "link": "/"
+      },
+      {
+        "id": 4,
+        "name": "Monitor",
+        "imagePath": "../../images/home/electronics/monitor.jpeg",
+        "link": "/"
+      }
+    ]
+  },
+  "tShirtSection": [
+    {
+      "id": 0,
+      "categoryName": "t-shirts",
+      "brands": [
+        "Max",
+        "U.S POLO ASSN.",
+        "Puma",
+        "Adidas",
+        "Max",
+        "Tommy Hilfiger",
+        "SpyKar"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "tshirt-max-black",
+      "itemPath": "../../images/tshirt-max-black.webp",
+      "allImages": [
+        "../../images/tshirt-max-black.webp",
+        "../../images/tshirt-max-black.webp",
+        "../../images/tshirt-max-black.webp",
+        "../../images/tshirt-max-black.webp"
+      ],
+      "offers": {
+        "offer1": [
+          "Partner Offers",
+          "Buy 3Get 5% off,",
+          "Buy 4 Get 10% off"
+        ],
+        "offer2": [
+          "No Cost EMI",
+          "Avil no Cost EMI on select cards for orders above ₹3000"
+        ],
+        "offer3": [
+          "Bank Offer",
+          "Upto ₹21.45 discount on HSBC Cashback credit card transcation"
+        ]
+      },
+      "productExclusive": [
+        "freeDelivery",
+        "payOnDelivery",
+        "returnExchange",
+        "delivery",
+        "secureTranscation"
+      ],
+      "brand": "Max",
+      "colors": [
+        "red",
+        "blue",
+        "orange",
+        "green"
+      ],
+      "availSize": [
+        "S",
+        "L",
+        "XL"
+      ],
+      "itemDescription": "Men solid Henleyneck regular fit T-Shirt",
+      "deals": "Deal of the day",
+      "price": "359",
+      "mrp": "399",
+      "deliveryType": "FREE delivery by PixelMarket",
+      "detailDescription": [
+        "sleek and versatile, this black Max T-shirt is a wardrobe essential for effortless style.",
+        "Keep it simple and stylish with this classic black Max T-shirt, perfect for any casual occasion.",
+        "A must-have staple, this black Max T-shirt offers a comfortable fit and endless outfit possibilities.",
+        "Unleash your fashion-forward side with this black Max T-shirt, combining comfort and trendiness.",
+        "Upgrade your basics with this black Max T-shirt, featuring a modern and minimalist design."
+      ],
+      "sellerDetails": "Hifi Retail"
+    },
+    {
+      "id": 2,
+      "name": "tshirt-max-black",
+      "itemPath": "../../images/tshirt-max-black.webp",
+      "allImages": [
+        "../../images/tshirt-max-black.webp",
+        "../../images/tshirt-max-black.webp",
+        "../../images/tshirt-max-black.webp",
+        "../../images/tshirt-max-black.webp"
+      ],
+      "brand": "Puma",
+      "itemDescription": "Men solid Henleyneck regular fit T-Shirt",
+      "price": "359",
+      "mrp": "399",
+      "deliveryType": "FREE delivery by PixelMarket",
+      "detailDescription": [
+        "sleek and versatile, this black Max T-shirt is a wardrobe essential for effortless style.",
+        "Keep it simple and stylish with this classic black Max T-shirt, perfect for any casual occasion.",
+        "A must-have staple, this black Max T-shirt offers a comfortable fit and endless outfit possibilities.",
+        "Unleash your fashion-forward side with this black Max T-shirt, combining comfort and trendiness.",
+        "Upgrade your basics with this black Max T-shirt, featuring a modern and minimalist design."
+      ],
+      "sellerDetails": "Hifi Retail"
+    },
+    {
+      "id": 3,
+      "name": "tshirt-max-black",
+      "itemPath": "../../images/tshirt-max-black.webp",
+      "brand": "Max",
+      "itemDescription": "Men solid Henleyneck regular fit T-Shirt",
+      "price": "359",
+      "mrp": "399",
+      "deliveryType": "FREE delivery by PixelMarket"
+    },
+    {
+      "id": 4,
+      "name": "tshirt-max-black",
+      "itemPath": "../../images/tshirt-max-black.webp",
+      "brand": "Max",
+      "itemDescription": "Men solid Henleyneck regular fit T-Shirt",
+      "price": "359",
+      "mrp": "399",
+      "deliveryType": "FREE delivery by PixelMarket"
+    },
+    {
+      "id": 5,
+      "name": "tshirt-max-black",
+      "itemPath": "../../images/tshirt-max-black.webp",
+      "brand": "Max",
+      "itemDescription": "Men solid Henleyneck regular fit T-Shirt",
+      "price": "359",
+      "mrp": "399",
+      "deliveryType": "FREE delivery by PixelMarket"
+    }
+  ]
+}

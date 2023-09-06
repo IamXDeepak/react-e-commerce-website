@@ -1,0 +1,42 @@
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    z-index: 9999; /* higher z-index to overlay other components */
+}
+
+.info-box {
+background-color: white;
+border-radius: 11px;
+padding: 1px;
+}
+
+.cancel-delete,
+.delete-address {
+    margin-left: 1rem;
+    position: absolute;
+    bottom: 10px;
+    width: 4rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    background-color: rgb(255, 182, 46);
+    border: .1px solid black;
+    transition: 3sec;
+}
+
+.cancel-delete:hover,
+.delete-address:hover {
+    transform: scale(1.1);
+}
+
+.delete-address {
+    margin-left: 15rem;
+    background-color: rgb(255, 68, 68);
+}
+

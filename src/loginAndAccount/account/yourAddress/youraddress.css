@@ -1,0 +1,95 @@
+.your-addresses {
+    padding: 1rem;
+}
+
+.address-heading {
+    margin-left: 10rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+.address-box {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    width: 70rem;
+    margin: 0 auto;
+    padding: 2.5rem;
+}
+
+.youraddress{
+    position: relative;
+    border: 1px solid rgb(156, 156, 156);
+    width: 20rem;
+    height: 15rem;
+    border-radius: 9px;
+    line-height: 1.2rem;
+}
+
+.add-address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed rgb(156, 156, 156);
+}
+
+.plus-icon {
+    
+    width: 3rem;
+    height: 3rem;
+    color: rgb(108, 108, 108);
+}
+
+.add-address p {
+    font-weight: 700;
+    
+}
+
+.yourAddress-default{
+    margin: 7px 9px;
+    font-weight: 600;
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+}
+
+.my-address {
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: 450;
+}
+
+.yourAddress-name {
+    font-weight: 700;
+}
+
+.yourAddress-edit,
+.yourAddress-remove,
+.yourAddress-defaultAddress {
+    position: absolute;
+    bottom: 13px;
+    border: none;
+    background-color: transparent;
+    color: rgb(0, 107, 87);
+}
+
+.yourAddress-edit:hover,
+.yourAddress-remove:hover,
+.yourAddress-defaultAddress:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.yourAddress-edit{
+    left: 20px;
+}
+
+.yourAddress-remove {
+    left: 60px;
+}
+
+.yourAddress-defaultAddress {
+    left: 127px;
+}

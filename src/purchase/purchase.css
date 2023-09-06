@@ -1,0 +1,341 @@
+.top {
+    margin: 10px 15px;
+    font-size: 12px;
+}
+
+.purchase-grid {
+    display: grid;
+    grid-template-columns: 2fr 1.7fr 1fr;
+    padding: 0 1rem;
+    min-height: 100vh;
+}
+
+.img-column {
+    display: flex;
+}
+
+.img-column .all-images {
+    border: .5px solid black;
+    width: 3rem;
+    height: 3.7rem;
+    margin:10px 0;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.img-column .all-images:hover {
+    box-shadow: rgba(1, 213, 255, 0.35) 0px 0px 5px;
+}
+
+.preview {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.description-column {
+    padding: 1rem 1rem;
+
+}
+
+.description-column .store {
+    color: rgb(8, 78, 209);
+    font-size: 14px;
+    text-decoration: none;
+}
+.description-column .product-title{
+    margin-top: 1rem;
+    font-size: 26px;
+    font-weight: 450;
+}
+
+.border {
+    margin-top: 10px;
+    color: aliceblue;
+    border: .4px solid rgb(175, 175, 175);
+}
+
+.description-column .deals {
+    background-color: rgb(182, 0, 0);
+    color: #fff;
+    padding: 5px 0;
+    border-radius: 1px;
+    margin-top: 10px;
+    font-weight: 400;
+    width: 8rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.description-column .price-tag {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 26px;
+}
+
+.description-column .price-tag .discount {
+    color: red;
+}
+
+.description-column .price-tag .price-design {
+    position: absolute;
+    top: 3.5px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.description-column .price-tag .actual-price {
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.description-column .mrp-price {
+    margin-left: 13px;
+    margin-top: 7px;
+    font-size: 13px;
+    color: rgb(48, 48, 48);
+}
+
+.description-column .mrp-price span {
+    text-decoration: line-through;
+}
+
+.description-column .tax {
+    margin: 10px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.description-column .offer-icon {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    height: 1.5rem;
+    width : 1.5rem;
+}
+
+.description-column .offer {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+.description-column .product-offers {
+    display: flex;
+    overflow: auto;
+    width: 31rem;
+}
+.description-column .product-offers .offer {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    border-radius: 5px;
+    border: .1px solid black;
+    margin: 10px 5px;
+    padding: 5px;
+    height: 7rem;
+    width: 10rem;
+}
+
+.description-column .product-offers .offer p {
+    margin-left: 2px;
+}
+
+.description-column .product-offers .offer .offer0{
+    margin-top: 2px;
+}
+
+.description-column .product-offers .offer .offer1,
+.description-column .product-offers .offer .offer2 {
+    margin-top: 3px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.description-column .product-offers .offer .offer1 {
+    margin-top: 10px;
+}
+.exclusive-container {
+    display: flex;
+    margin-top: 10px;
+    overflow-y: auto;
+}
+.exclusive-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2px;
+    width : 6rem;
+}
+
+.exclusive-features .exclusive-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(246, 246, 246);
+    border-radius: 50%;
+}
+
+.exclusive-features .exclusive-content {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #3c8782;
+}
+
+.size{padding: 10px;}
+.size .size-heading {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.size .size-fix {
+    font-size: 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 4.5rem;
+    background: linear-gradient(to bottom, rgb(238, 238, 238), rgb(255, 255, 255));
+}
+ 
+
+.color-variants {
+    display: flex;
+
+}
+.color-variants .color-palettes{
+    margin: 5px 7px;
+    height: 2.5rem;
+    width: 2rem;
+    border-radius: 4px;
+}
+.description-column .description {
+    margin-top: 15px;
+    padding: 0 1rem;
+}
+.description-column .description li {
+    font-size: 15px;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.main-box {
+    width: 95%;
+    margin: 10px auto;
+    padding: 1rem;
+    border: .4px solid rgb(186, 186, 186);
+    line-height: 1.2rem;
+    border-radius: 5px;
+}
+.main-box .final-price {
+    position: relative;
+    margin-bottom: 10px;
+}
+.main-box .price-design {
+    position: absolute;
+    top: 3.5px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.main-box .actual-price {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.main-box .zeros {
+    position: absolute;
+    font-weight: 600;
+}
+
+.main-box .free-delivery {
+    text-decoration: none;
+    color: rgb(27, 119, 116);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.main-box .delivery-date {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.main-box .order-timing {
+    color: rgb(178, 74, 0);
+}
+
+.main-box .delivery-location {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.main-box .location {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-top: 1px;
+}
+
+.main-box .location-content {
+    font-size: 12px;
+    color: rgb(27, 119, 116);
+}
+
+.main-box .stock {
+    color: green;
+    font-weight: 650;
+    font-size: 17px;
+}
+
+.main-box .seller-details {
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.main-box .seller-details span {
+    color: rgb(27, 119, 116);;
+}
+.main-box .quantity-box {
+    margin-bottom: 10px;
+}
+.main-box .quantity-text {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.main-box .quantity-box input {
+    text-align: center;
+    font-weight: 600;
+    margin-left: 5px;
+    width: 2rem;
+    border: .5px solid black;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, rgb(230, 230, 230), white);
+}
+
+.main-box .add-to-cart,
+.main-box .buy-now {
+    width : 100%;
+    border-radius: 15px;
+    margin: 5px 0;
+    height: 2rem;
+    border: none;
+    font-weight: 520;
+}
+
+.main-box .add-to-cart {
+    background-color: #ffb627;
+}
+
+.main-box .buy-now {
+    background-color: #ffea00;
+}
+
+.total-price span:nth-child(2) {
+    font-weight: 700;
+}
+
+.total-price span:nth-child(1) {
+    font-size: 15px;
+}

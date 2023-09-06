@@ -1,0 +1,67 @@
+.login-and-security {
+    width : 40rem;
+    height: 40rem;
+    margin: 40px auto;
+}
+
+.outer-box {
+    margin-top: 25px;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 7px; 
+}
+
+.inner-box {
+    position: relative;
+    border-bottom: 1px solid rgb(167, 167, 167);
+    padding: 1rem;
+
+}
+.inner-box:last-child {
+    border: none;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.value {
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.content {
+    font-size: 13px;
+    width:75%;
+}
+
+.submit {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 5rem;
+    height: 1.5rem;
+    background-color: white;
+    border: .1px solid rgb(130, 130, 130);
+    border-radius: 7px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.submit:hover {
+    background-color: #f8f9fa;
+}
+
+.buttons {
+    margin: 15px;
+    width: 3.5rem;
+    height: 1.5rem;
+    background-color: rgb(255, 196, 35);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+
+.logout {
+    background-color: #b02424;
+    color: white;
+}   

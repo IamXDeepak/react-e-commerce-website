@@ -1,0 +1,204 @@
+.tshirt {
+    border : 1px solid black;
+    min-height: 100vh;
+}
+
+.tshirt .top-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    border-bottom : .2px solid black;
+    height: 2.5rem;
+}
+.tshirt .top-panel .left p{
+    font-weight: 500;
+}
+.tshirt .top-panel .left span {
+    color: rgb(249, 34, 34); 
+
+}
+
+.tshirt .right .sort {
+    display: flex;
+    align-items: center;
+    border: .2px solid black;
+    height: 1.5rem;
+    min-width: 0%;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.tshirt .right .sort select {
+    border: none;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.main-component {
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;
+    padding: 0 1rem;
+}
+
+.main-component .categories h5 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.main-component .categories .brands {
+    overflow-y: auto;
+    height : 10rem;
+    line-height: 1.2rem;
+}
+.main-component .categories .brands h5 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.main-component .categories .brands label {
+    font-weight: 400;
+    
+}
+
+.main-component .price {
+    margin-top: 15px;
+}
+
+.main-component .price .brands h4 {
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.price-range {
+    display: flex;
+    margin-top: 10px;
+}
+
+.val-box { 
+    border: .5px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.val-inp {
+    width : 2rem;
+    border: none;
+}
+
+.var-inp:focus {
+    outline: none;
+    border: none;
+}
+.val-inp::placeholder {
+    margin: auto 0;
+}
+
+.price-range button {
+    border : .1px solid black;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    background-color: white;
+    width: 1.8rem;
+    border-radius: 7px;
+}
+
+.price-range button:hover { 
+    background-color: rgb(242, 242, 242);
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 7px;
+}
+.products .border-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width : 17rem;
+    height : 36rem;
+    background-color: rgb(238, 238, 238);
+}
+
+.products .border-container .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99.5%;
+    background-color: white;
+    height: 15.94rem;
+    margin : 0 auto;
+    line-height: 2rem;
+}
+
+.products .border-container img {
+  width: 99.5%;
+}
+.products .border-container .color {
+    margin-top: 10px;
+    display: flex;
+}
+.products .border-container .product-colors {
+    display: flex;
+    margin-right: 10px;
+    height : 15px;
+    width : 15px;
+    border-radius: 50%;
+}
+.products .border-container .product-colors:hover {
+    transform: scale(1.05);
+    border: .5px solid black;
+}
+.products .border-container .item-brand {
+    margin : 5px 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.products .border-container .item-description {
+    padding: 0 10px;
+    text-align: center;
+    line-height: 1.2rem;
+    font-weight: 400;
+}
+
+.products .border-container .deals {
+    background-color: rgb(182, 0, 0);
+    color: #fff;
+    padding: 0 8px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+.products .border-container p {
+    position: relative;
+}
+.products .border-container .price-symbol {
+    position: absolute;
+    top:-4px;
+    font-weight: 500;
+}
+.products .border-container .main-price {
+    margin-left: 9px;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.products .border-container .mrp {
+    color: rgb(86, 86, 86);
+}
+.products .border-container .strike {
+    text-decoration: line-through;
+}
+
+.percentage {
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.delivery-type {
+    font-size: 13px;
+    font-weight: 400;
+}
